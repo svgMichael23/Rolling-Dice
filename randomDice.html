@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        #counter-display{
+            border: solid black 3px;
+            max-height: 400px;
+            min-height: 300px;
+            overflow-y: scroll;
+            max-width:500px;
+        }
+        #dice-image{
+            width: 200px;
+            height: auto;
+            margin: auto;
+        }
+        body{
+            padding: 60px;
+        }
+        </style>
+    </head>
+    <body>
+      
+       <img src="./face-unknown.png" id="dice-image" />
+       <button id="start-button">Start</button>
+       <button id="stop-button">Stop</button>
+
+        <div id="counter-display">
+            <h3>Counter</h3>
+        </div>
+        <script src="./script.js" type="text/javascript"></script>
+    </body>
+</html>
